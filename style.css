@@ -1,0 +1,18 @@
+@import url(./styles/root.css);
+@import url(./styles/mainMenu.css);
+@import url(./styles/rules.css);
+@import url(./styles/pauseMenu.css);
+@import url(./styles/mobile/ingame.css);
+
+body {
+    background-color: var(--main-color);
+    font-family: var(--font);
+    height: 100vh;
+    width: 100%;
+}
+
+/*
+    There is a general problem with width value. My guess is: when I'm using width to define the size of an element (like a button's width) it is okay to use rem, however, when using width to define the an area's range, it should have percentage proprieties.
+    Retangule (styles/mobile/ingame/winner.css) have percentage as width value, so it doesnt really matter the screen's size, retangule will always be fitting the screen. Same apply to main.Menu.css' buttons, when I set those buttons width value as rem I need to scroll horizontally in order to see the entire button. On the other hand, players 1 and 2 scoreboard (styles/mobile/ingame/scoreboard.css) have rem as width value, because its not meant to make me understand IM SO CONFUSE RIGHT NOW. 
+*/
+

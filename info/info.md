@@ -1,0 +1,1 @@
+![Creating elements dynamically](image.png)
